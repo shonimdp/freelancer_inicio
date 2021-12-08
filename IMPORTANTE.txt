@@ -1,0 +1,32 @@
+///*ICONOS*//
+
+https://tablericons.com/
+
+//*NORMALIZE*//
+
+https://necolas.github.io/normalize.css/8.0.1/normalize.css
+-----------------------------------------------------
+IMPORTANTE:
+
+html {
+     font-size: 62.5%;
+     box-sizing:  border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+
+}
+-----------------------------------------------------
+
+ALINEAR TEXTO O CONTENIDO EN EL CENTRO DE UN CONTENEDOR CON CSS3
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+
+-----------------------------------------------------
+
+DEGRADADO DE COLOR CON CCS (va en el body) O SE PUEDE HACER CON ESTA PAGINA (https://www.cssmatic.com/)
+
+background-image: linear-gradient(to top, #DFE9F3 0%, var(--blanco) 100%);
