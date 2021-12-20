@@ -20,12 +20,14 @@ html {
 
 @media (min-width: 768px) { 
     .navegacion-principal,
+    .scroll-contactar,
     .servicio:nth-child(1),
     .servicio:nth-child(2), /*COMANDO PARA SELECIONAR UNA POSICION ENTRE VARIAS CLASS CON MISMO NOMBRE */
     .servicio:nth-child(3),
+    .texto-contacto,
     .contacto-1,
     .formulario,
-    .footer {
+    .footer-t {
         scroll-snap-align: center;
         scroll-snap-stop: always;
     }
