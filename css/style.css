@@ -18,16 +18,25 @@ html {
 
 /** SCROLL SNAP **/
 
+@media (min-width: 768px) { 
+    .navegacion-principal,
+    .servicio:nth-child(1),
+    .servicio:nth-child(2), /*COMANDO PARA SELECIONAR UNA POSICION ENTRE VARIAS CLASS CON MISMO NOMBRE */
+    .servicio:nth-child(3),
+    .contacto-1,
+    .formulario,
+    .footer {
+        scroll-snap-align: center;
+        scroll-snap-stop: always;
+    }
+}
+.servicio,
 .navegacion-principal,
-.servicio:nth-child(1),
-.servicio:nth-child(2), /*COMANDO PARA SELECIONAR UNA POSICION ENTRE VARIAS CLASS CON MISMO NOMBRE */
-.servicio:nth-child(3),
-.contacto-1,
-.formulario,
-.footer {
+.formulario {
     scroll-snap-align: center;
     scroll-snap-stop: always;
 }
+
 
 *, *::before, *::after {
     box-sizing: inherit;
