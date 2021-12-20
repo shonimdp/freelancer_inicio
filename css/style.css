@@ -18,8 +18,9 @@ html {
 
 /** SCROLL SNAP **/
 
-.mis-servicios,
 .navegacion-principal,
+.mis-servicios,
+.servicio,
 .formulario {
     scroll-snap-align: center;
     scroll-snap-stop: always;
