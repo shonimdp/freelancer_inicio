@@ -19,8 +19,8 @@ html {
 /** SCROLL SNAP **/
 
 @media (min-width: 768px) { 
-    .navegacion-principal,
-    .scroll-contactar,
+    .contenido-hero,
+    .boton:nth-child(1)
     .servicio:nth-child(1),
     .servicio:nth-child(2), /*COMANDO PARA SELECIONAR UNA POSICION ENTRE VARIAS CLASS CON MISMO NOMBRE */
     .servicio:nth-child(3),
@@ -28,7 +28,7 @@ html {
     .contacto-1,
     .formulario,
     .footer-t {
-        scroll-snap-align: center;
+        scroll-snap-align:  top;
         scroll-snap-stop: always;
     }
 }
