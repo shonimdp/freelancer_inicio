@@ -18,11 +18,12 @@ html {
 
 /** SCROLL SNAP **/
 
+/*
 @media (min-width: 768px) { 
     .contenido-hero,
     .boton:nth-child(1)
     .servicio:nth-child(1),
-    .servicio:nth-child(2), /*COMANDO PARA SELECIONAR UNA POSICION ENTRE VARIAS CLASS CON MISMO NOMBRE */
+    .servicio:nth-child(2),
     .servicio:nth-child(3),
     .texto-contacto,
     .contacto-1,
@@ -38,6 +39,7 @@ html {
     scroll-snap-align: center;
     scroll-snap-stop: always;
 }
+*/
 
 
 *, *::before, *::after {
@@ -270,6 +272,6 @@ font-weight: normal;
 }
 /** Footer **/
 
-.footer {
+.footer-t {
     text-align: center;
 }

@@ -30,3 +30,42 @@ ALINEAR TEXTO O CONTENIDO EN EL CENTRO DE UN CONTENEDOR CON CSS3
 DEGRADADO DE COLOR CON CCS (va en el body) O SE PUEDE HACER CON ESTA PAGINA (https://www.cssmatic.com/)
 
 background-image: linear-gradient(to top, #DFE9F3 0%, var(--blanco) 100%);
+
+-----------------------------------------------------
+
+ / *COMANDO PARA SELECIONAR UNA POSICION ENTRE VARIAS CLASS CON MISMO NOMBRE */
+
+:nth-child(numero-posicion de la class)
+
+Ejemplo: 
+.servicio:nth-child(2)
+
+
+-----------------------------------------------------
+
+SCROLL SNAP         - DESLIZAMIENTO DEL SCROLL DE LA WEB - EFECTO SELECCION
+
+scroll-snap-type: y mandatory;  (SE AGREGA EN LA CLASS HTML (GENERAL)
+   
+.(NombreDeClase) {
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+}
+
+ejemplo: 
+
+.servicio,
+.navegacion-principal,
+.formulario {
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+}
+
+-----------------------------------------------------
+CREAR MEDIA QUERIE EN "CSS.JSON"
+
+	"Crea un Media Querie": {
+		"prefix": "mq",
+		"body" : "@media (min-width: $1) { \n    $2\n}"
+	}
+}
